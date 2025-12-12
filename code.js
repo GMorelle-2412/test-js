@@ -99,3 +99,15 @@ let madiv = document.getElementById("madiv1");
 console.log("madiv.innerHTML");
 
 madiv.innerHTML = "coucou";
+
+//code js pour vidéo
+var uneDiv = document.getElementById("div_vidéo");
+uneDiv.ondrag = function (event){
+    alert("clique");
+}
+
+var AutreDiv = document.getElementById("div_vidéo2");
+AutreDiv.addEventListener("click", toto);
+function toto(event){
+    alert("coco")
+}
